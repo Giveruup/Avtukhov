@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" tasks="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" tasks="ie=edge">
+  <title>Avtukhov</title>
+  <link rel="icon" href="img/icons/icon.png" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Train+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <svg style="display: none">
+    <symbol id="vkontakte" viewBox="0 0 24 24">
+      <g>
+        <path d="m19.915 13.028c-.388-.49-.277-.708 0-1.146.005-.005 3.208-4.431 3.538-5.932l.002-.001c.164-.547 0-.949-.793-.949h-2.624c-.668 0-.976.345-1.141.731 0 0-1.336 3.198-3.226 5.271-.61.599-.892.791-1.225.791-.164 0-.419-.192-.419-.739v-5.105c0-.656-.187-.949-.74-.949h-4.126c-.419 0-.668.306-.668.591 0 .622.945.765 1.043 2.515v3.797c0 .832-.151.985-.486.985-.892 0-3.057-3.211-4.34-6.886-.259-.713-.512-1.001-1.185-1.001h-2.625c-.749 0-.9.345-.9.731 0 .682.892 4.073 4.148 8.553 2.17 3.058 5.226 4.715 8.006 4.715 1.671 0 1.875-.368 1.875-1.001 0-2.922-.151-3.198.686-3.198.388 0 1.056.192 2.616 1.667 1.783 1.749 2.076 2.532 3.074 2.532h2.624c.748 0 1.127-.368.909-1.094-.499-1.527-3.871-4.668-4.023-4.878z"/>
+      </g>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 511 511.9">
+      <g>
+        <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+      </g>
+    </symbol>
+    <symbol id="mail" viewBox="0 0 512 512">
+      <g>
+        <path d="M467,76H45C20.137,76,0,96.262,0,121v270c0,24.885,20.285,45,45,45h422c24.655,0,45-20.03,45-45V121
+          C512,96.306,491.943,76,467,76z M460.698,106c-9.194,9.145-167.415,166.533-172.878,171.967c-8.5,8.5-19.8,13.18-31.82,13.18
+          s-23.32-4.681-31.848-13.208C220.478,274.284,64.003,118.634,51.302,106H460.698z M30,384.894V127.125L159.638,256.08L30,384.894z
+           M51.321,406l129.587-128.763l22.059,21.943c14.166,14.166,33,21.967,53.033,21.967c20.033,0,38.867-7.801,53.005-21.939
+          l22.087-21.971L460.679,406H51.321z M482,384.894L352.362,256.08L482,127.125V384.894z"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <div class="logo">
+          <a class="logo__link" target="_self" href="#home">Avtukhov</a>
+        </div>
+        <div class="navigation">
+          <nav class="nav">
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <ul class="nav__links">
+              <li>
+                <a class="nav__a" target="_self" href="#home">Главная</a>
+              </li>
+              <li>
+                <a class="nav__a" target="_self" href="#templates">Шаблоны</a>
+              </li>
+              <li>
+                <a class="nav__a" target="_self" href="#tasks">Задания</a>
+              </li>
+              <li>
+                <a class="nav__a" target="_self" href="#contact">Связь</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <div class="header__quote">
+      <a name="home"><h1 class="header__title">“</h1></a>
+      <p class="header__text">
+        В настоящий момент этот раздел находится в разработке.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="templates">
+        <div class="templates__title">
+          <a name="templates"><h2>Шаблоны композиции сайта</h2></a>
+        </div>
+        <div class="templates__table">
+          <div class="templates__item">
+            <a class="templates__link" target="_blank" href="https://disk.yandex.ru/d/Wki2E7jCJbOQcg"><img class="templates__img" alt="Картинка" title="" src="img/templates/Компоновка1.png" />
+            <h3 class="templates__item__title">Вариант 1</h3></a>
+          </div>
+          <div class="templates__item">
+            <a class="templates__link" target="_blank" href="https://disk.yandex.ru/d/b-H1xvx_2vX8YA"><img class="templates__img" alt="Картинка" title="" src="img/templates/Компоновка2.png" />
+            <h3 class="templates__item__title">Вариант 2</h3></a>
+          </div>
+          <div class="templates__item">
+            <a class="templates__link" target="_blank" href="https://disk.yandex.ru/d/DioFgAQaIq7sZA"><img class="templates__img" alt="Картинка" title="" src="img/templates/Компоновка3.png" />
+            <h3 class="templates__item__title">Вариант 3</h3></a>
+          </div>
+          <div class="templates__item">
+            <a class="templates__link" target="_blank" href="https://disk.yandex.ru/d/sOK2Pc5iT0j5Xg"><img class="templates__img" alt="Картинка" title="" src="img/templates/Компоновка4.png" />
+            <h3 class="templates__item__title">Вариант 4</h3></a>
+          </div>
+        </div>
+    </div><!--/templates-->
+  </div><!--/container-->
+
+  <div class="container">
+    <div class="tasks">
+      <div class="tasks__title">
+        <a name="tasks"><h2>Варианты заданий</h2></a>
+      </div>
+      <div class="tasks__table">
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/esK8f5CGzXfSeQ"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/1.jpg" />
+          <h3 class="tasks__item__title">1. День Защитника Отечества</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/1P_01g8HjlY4tg"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/2.jpg" />
+          <h3 class="tasks__item__title">2. Международный Женский День</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">3. День Победы</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/DIOIMPYPsEv2Lg"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/4.jpg" />
+          <h3 class="tasks__item__title">4. Новый Год</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">5. День святого Валентина</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/mxcktpKlAJTf2w"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/6.jpg" />
+          <h3 class="tasks__item__title">6. День Труда</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">7. День защиты детей</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">8. Рождество</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">9. День России</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">10. День студентов/Татьянин День</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">11. День смеха</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">12. День Радио</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">13. День Строителя</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/tZ4e0RL4cGxDAQ"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/14.jpg" />
+          <h3 class="tasks__item__title">14. Всемирный день Науки</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_blank" href="https://disk.yandex.ru/d/kK4S6wyvowvsFA"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/15.jpg" />
+          <h3 class="tasks__item__title">15. День Шоколада</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">16. День знаний</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">17. День Интернета России</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">18. День Российского флага</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">19. День Информатики</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">20. День Энергетика</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">21. День Космонавтики</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">22. Международный день Дружбы</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">23. День Пушкина</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">24. День Российского кино</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">25. День бухгалтера</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">26. День Российской печати</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">27. Международный день объятий</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">28. Всемирный день ребёнка</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">29. Международный день «Спасибо»</h3></a>
+        </div>
+        <div class="tasks__item">
+          <a class="tasks__link" target="_self" href="#"><img class="tasks__img" alt="Картинка" title="" src="img/tasks/placeholder.jpg" />
+          <h3 class="tasks__item__title">30. День Солнца</h3></a>
+        </div>
+      </div>
+    </div><!--/tasks-->
+  </div><!--/container-->
+
+  <div class="container">
+    <div class="mail__form">
+      <div class="mail__form-title">
+        <a name="contact"><h2>Форма обратной связи</h2></a>
+      </div>
+      <form class="form" action="https://formspree.io/f/meqvobyl" method="post" id="my-form">
+        <input class="form__name" type="text" name="Name" id="Name" placeholder="Имя" autocomplete="off" required/>
+        <input class="form__mail" type="text" name="Email" id="Email" placeholder="Почта" autocomplete="off" required/>
+        <textarea class="form__message" name="Massage" id="Message" placeholder="Сообщение" autocomplete="off" required></textarea>
+        <button class="form__btn" type="submit">Отправить</button>
+      </form>
+      <div class="form__status"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+      <div class="footer__media">
+        <a class="media__link" target="_blank" href="mailto:maksim.avtuhov@gmail.com"><svg class="social__icon"><use xlink:href="#mail"></use></svg></a>
+        <a class="media__link" target="_blank" href="https://www.instagram.com/avtukhov.maxim/"><svg class="social__icon"><use xlink:href="#instagram"></use></svg></a>
+        <a class="media__link" target="_blank" href="https://vk.com/giveruup"><svg class="social__icon"><use xlink:href="#vkontakte"></use></svg></a>
+      </div>
+  </footer>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

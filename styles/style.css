@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background-color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* CONTAINER ==================================================================*/
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* HEADER =====================================================================*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #EFEFEF;
+  z-index: 4;
+}
+
+.header__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.logo {
+  font-family: "Train One", cursive;
+  color: #000;
+  font-size: 32px;
+  margin: 40px 0 0 40px;
+}
+
+.logo__link {
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+.logo__link:hover {
+  border-bottom: 3px solid #d45e5e;
+}
+
+.navigation{
+  display: flex;
+}
+
+.nav__links {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__links li + li {
+  margin: 0 7px;
+}
+
+.nav__a{
+  padding-top: 100%;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.3s ease-in;
+}
+
+.nav__a:hover{
+  background-color: #d45e5e;
+  color: #fff;
+}
+
+/* HELLO TEXT =================================================================*/
+
+.header__quote {
+  padding: 0 15px;
+  text-align: center;
+  margin: 100px auto 0;
+  padding-bottom: 30px;
+}
+
+.header__title {
+  color: #dfdfdf;
+  font-size: 100px;
+  font-family: Arial;
+}
+
+.header__text {
+  font-family: Cambria, cursive;
+  font-style: italic;
+  font-size: 22px;
+  color: #404040;
+}
+
+/* TEMPLATES ==================================================================*/
+
+.templates {
+
+}
+
+.templates__title {
+  font-family: Cambria, cursive;
+  font-style: italic;
+  font-size: 22px;
+  color: #404040;
+  margin: 100px 40px 40px;
+}
+
+.templates__table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.templates__item {
+  width: 200px;
+  margin-bottom: 15px;
+  opacity: .5;
+  transition: 0.3s ease-in;
+}
+
+.templates__link {
+  height: 200px;
+  width: 200px;
+}
+
+.templates__img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.templates__item__title {
+  color: #000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.templates__item:hover {
+  opacity: 1;
+}
+
+/* TASKS ======================================================================*/
+
+.tasks{
+
+}
+
+.tasks__title {
+  font-family: Cambria, cursive;
+  font-style: italic;
+  font-size: 22px;
+  color: #404040;
+  margin: 100px 40px 40px;
+}
+
+.tasks__table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tasks__item {
+  width: 200px;
+  margin-bottom: 15px;
+  opacity: .5;
+  transition: 0.3s ease-in;
+}
+
+.tasks__link {
+  height: 200px;
+  width: 200px;
+}
+
+.tasks__img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.tasks__item__title {
+  color: #000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tasks__item:hover {
+  opacity: 1;
+}
+
+/* MAIL FORM ==================================================================*/
+
+.mail__form {
+  display: block;
+  width: 50%;
+  margin: 0 auto 100px;
+}
+
+.mail__form-title {
+  font-family: Cambria, cursive;
+  font-style: italic;
+  font-size: 22px;
+  color: #404040;
+  margin: 100px 40px 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__name {
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.form__name::placeholder {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  transition: opacity .2s linear;
+}
+
+.form__name:focus::placeholder {
+  opacity: 0;
+}
+
+.form__name:focus {
+  outline: none;
+  border-bottom: 2px solid #d45e5e;
+}
+
+.form__mail {
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.form__mail::placeholder {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  transition: opacity .2s linear;
+}
+
+.form__mail:focus::placeholder {
+  opacity: 0;
+}
+
+.form__mail:focus {
+  outline: none;
+  border-bottom: 2px solid #d45e5e;
+}
+
+.form__message {
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.form__message::placeholder {
+  color: #000;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: opacity .2s linear;
+}
+
+.form__message:focus::placeholder {
+  opacity: 0;
+}
+
+.form__message:focus {
+  outline: none;
+  border-bottom: 2px solid #d45e5e;
+}
+
+.form__btn {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #d45e5e;
+  border: 1px solid transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+  transition: .2s;
+}
+
+.form__btn:hover {
+  background-color: #A60000;
+}
+
+.form__status {
+  height: 45px;
+  width: 100%;
+}
+
+/* FOOTER =====================================================================*/
+
+.footer {
+  background-color: #d45e5e;
+  margin-top: auto;
+}
+
+.footer__media {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.media__link {
+  margin: 10px;
+}
+
+.social__icon {
+  width: 30px;
+  height: 30px;
+  fill: #000;
+  transition: 0.3s ease-in;
+}
+
+.social__icon:hover {
+  fill: #fff;
+}
+
+/* MEDIA ======================================================================*/
+
+@media (max-width: 769px) {
+
+  .logo {
+    margin: 30px 0 0 30px;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 5px;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .nav__links {
+    position: fixed;
+    background: #d45e5e;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% 10%);
+    transition: all .3s ease-out;
+  }
+
+  .nav__links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% 10%);
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .nav__a {
+    padding-top: 15px;
+    font-size: 24px;
+    border-bottom: 2px solid #efefef;
+  }
+
+  .templates__item {
+    width: 300px;
+    margin-bottom: 35px;
+    opacity: 1;
+  }
+
+  .templates__link {
+    height: 300px;
+    width: 300px;
+  }
+
+  .templates__img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .templates__item__title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .tasks__item {
+    width: 300px;
+    margin-bottom: 35px;
+    opacity: 1;
+  }
+
+  .tasks__link {
+    height: 300px;
+    width: 300px;
+  }
+
+  .tasks__img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .tasks__item__title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .mail__form {
+    display: block;
+    width: 75%;
+    margin: 0 auto 100px;
+  }
+
+  .social__icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .templates__title {
+    font-size: 18px;
+    margin: 50px 40px 40px;
+  }
+
+  .templates__item {
+    width: 400px;
+    margin-bottom: 55px;
+    opacity: 1;
+  }
+
+  .templates__link {
+    height: 400px;
+    width: 400px;
+  }
+
+  .templates__img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .templates__item__title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .tasks__title {
+    font-size: 18px;
+    margin: 50px 40px 40px;
+  }
+
+  .tasks__item {
+    width: 400px;
+    margin-bottom: 55px;
+    opacity: 1;
+  }
+
+  .tasks__link {
+    height: 400px;
+    width: 400px;
+  }
+
+  .tasks__img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .tasks__item__title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .mail__form {
+    display: block;
+    width: 75%;
+    margin: 0 auto 100px;
+  }
+
+  .mail__form-title {
+    font-size: 18px;
+    margin: 50px 40px 40px;
+  }
+
+}
